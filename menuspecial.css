@@ -1,0 +1,118 @@
+﻿:root {
+    --main-color: #443;
+    --border-radius: 95% 4% 97% 5%/4% 94% 3% 95%;
+    --border-radius-hover: 4% 95% 6% 95%/95% 4% 92% 5%;
+    --border: .2rem solid var(--main-color);
+    --border-hover: .2rem dashed var(--main-color);
+}
+
+* {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+}
+
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+    scroll-padding-top: 7rem;
+    scroll-behavior: smooth;
+}
+
+section {
+    padding: 2rem 9%;
+}
+
+.heading {
+    font-size: 9rem;
+    text-transform: uppercase;
+    color: transparent;
+    -webkit-text-stroke: .05rem var(--main-color);
+    letter-spacing: .2rem;
+    text-align: center;
+    pointer-events: none;
+    position: relative;
+}
+
+    .heading span {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 100%;
+        color: var(--main-color);
+        font-size: 3rem;
+    }
+
+
+
+
+#menu-btn {
+    font-size: 3rem;
+    color: var(--main-color);
+    cursor: pointer;
+    display: none;
+}
+
+
+
+
+.menu {
+    background: url(../image/menu-bg.jpg) no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+    .menu .box-container {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 2rem;
+        justify-content: center;
+    }
+
+        .menu .box-container .box {
+            flex: 1 1 42rem;
+            padding: 2rem;
+            border: var(--border);
+            border-radius: var(--border-radius);
+            display: flex;
+            align-items: center;
+            gap: 1.5rem;
+            margin-left: 6rem;
+        }
+
+            .menu .box-container .box:hover {
+                border: var(--border-hover);
+                border-radius: var(--border-radius-hover);
+            }
+
+            .menu .box-container .box img {
+                height: 97px;
+                margin-left: -6rem;
+                width: 103px;
+            }
+
+            .menu .box-container .box .content h3 {
+                font-size: 2.2rem;
+                color: var(--main-color);
+                line-height: 1.8;
+            }
+
+            .menu .box-container .box .content p {
+                font-size: 1.6rem;
+                color: var(--main-color);
+                line-height: 1.8;
+                padding: 1rem 0;
+            }
+
+            .menu .box-container .box .content span {
+                font-size: 2rem;
+                color: var(--main-color);
+                line-height: 1.8;
+            }

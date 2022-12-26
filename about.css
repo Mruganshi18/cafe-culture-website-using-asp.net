@@ -1,0 +1,57 @@
+﻿body {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+    background-image: url('book-bg.jpg');
+}
+
+
+.wrapper {
+    font-family: 'lobster',cursive;
+    width: 100%;
+    overflow: hidden;
+}
+
+.row {
+    width: 77%;
+    padding: 50px 100px;
+    height: 409px;
+}
+
+.image-section {
+    width: 30%;
+    float: left;
+}
+
+.image-section {
+    width: 1%;
+    height: 11px;
+}
+
+.content {
+    width: 60%;
+    float: left;
+    margin-left: 50px;
+}
+
+    .content h1 {
+        font-size: 90px;
+        letter-spacing: 3.5px;
+        margin-top: 25px;
+        color: #222;
+    }
+
+    .content h2 {
+        font-size: 40px;
+        font-family: sans-serif;
+        margin-top: 25px;
+        color: #b60112;
+    }
+
+    .content p {
+        font-size: 20px;
+        font-family: Tahoma;
+        margin-top: 10px;
+        line-height: 1.5;
+    }

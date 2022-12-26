@@ -1,0 +1,72 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeBehind="Site1.master.cs" Inherits="CAFE_CULTURE___master_.Site1" %>
+
+<!DOCTYPE html>
+
+<html>
+<head runat="server">
+   
+    <style type="text/css">
+      
+       .auto-style1 {
+            height: 151px;
+            text-align:center;
+        }
+        .auto-style2 {
+            height: 1px;
+        }
+
+    </style>
+    <asp:ContentPlaceHolder ID="head" runat="server">
+    </asp:ContentPlaceHolder>
+</head>
+<body >
+    <form id="form1" runat="server" class="auto-style1" style="text-align:center">
+        <div style="background-color:black;">
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <asp:Label ID="Label1" runat="server" Font-Bold="True"  Font-Italic="True" Font-Overline="False" Font-Size="60px" ForeColor="White" Text="CAFE CULTURE"></asp:Label>
+
+
+
+
+
+
+
+
+
+
+
+        <br />
+        <br />
+
+
+        <br />
+
+
+            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="home.aspx" style="font-size:large; color:rgb(224, 140, 192);
+}" >HOME</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="about.aspx" style="font-size:large;color:rgb(224, 140, 192);
+}">ABOUT</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="contact.aspx" style="font-size:large;color:rgb(224, 140, 192);
+}">CONTACT</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="menu.aspx" style="font-size:large; color:rgb(224, 140, 192);
+}">MENU</a>
+              &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="order.aspx" style="font-size:large; color:rgb(224, 140, 192);
+}">ORDER</a>
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+        <a href="login.aspx" style="font-size:large; color:rgb(224, 140, 192);
+}">LOGIN</a>
+          
+</div>
+        <p class="auto-style2" style="background-color: #808080;">
+        </p>
+        <asp:ContentPlaceHolder ID="ContentPlaceHolder1" runat="server">
+            </asp:ContentPlaceHolder>
+            
+    </form>
+  
+    </body>
+</html>
